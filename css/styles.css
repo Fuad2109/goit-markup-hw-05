@@ -663,7 +663,7 @@ ul {
 
 .is-hidden {}
 
-.modal-cotainer {
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
