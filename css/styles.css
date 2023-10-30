@@ -803,16 +803,10 @@ ul {
   margin-bottom: 24px;
 }
 
-.form-check-box-input {}
-
-.form-check-box-input:checked+.form-label-checkbox .form-label-box {
+.visually-hidden:checked + .privacy-policy .check-box-span {
   background-color: var(--Ocean);
   border: none;
   fill: var(--Cloud);
-}
-
-.form-check-box-input:focus+.form-label-checkbox .form-label-box {
-  border-color: var(--Ocean);
 }
 
 .visually-hidden {}
