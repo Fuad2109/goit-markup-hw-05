@@ -618,6 +618,11 @@ ul {
   color: var(--White);
 }
 
+.footer-form-input:hover,
+.footer-form-input:focus {
+  background-color: var(--Ocean);
+}
+
 .footer-form-button {
   min-width: 165px;
   height: 40px;
@@ -791,6 +796,7 @@ ul {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.text-input-field:hover,
 .text-input-field:focus {
   border-color: var(--Iris);
 }
